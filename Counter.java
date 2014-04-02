@@ -51,6 +51,6 @@ public class Counter {
 	Reset the counter to zero
 	*/
 	public void reset() {
-		count = 0;
+		count = -1;
 	}
 }
