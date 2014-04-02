@@ -1,3 +1,5 @@
+package practice.HW1;
+
 /*
 NAME: Christopher Nies
 ID: A11393577
@@ -9,7 +11,6 @@ public class CounterTest extends TestCase {
 
 	private Counter counter, counter2;
 
-	@Override
 	/* this sets up the test fixture. JUnit invokes this method before
  	   every testXXX method */
 	protected void setUp() throws Exception {

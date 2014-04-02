@@ -1,3 +1,4 @@
+package practice.HW1;
 import java.util.Scanner;
 import java.io.File;
 
@@ -38,7 +39,7 @@ public class ReverseArray
     Scanner sc;
     try {
       File toReverse = new File(fileName);
-      sc = new Scanner(new File(fileName));
+      sc = new Scanner(toReverse);
       stringArray = ReverseArray.getArrayOfLines(fileName);
     }
     catch (Exception e) {System.out.println("File Not Found"); return;}
