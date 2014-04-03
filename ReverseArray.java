@@ -14,8 +14,7 @@ public class ReverseArray
       if (i==j) {
         j+=100;
         newArray = new String[j];
-        for(int k=0; k<oldArray.length; k++)
-          newArray[k] = oldArray[k];
+	System.arraycopy(oldArray, 0, newArray, 0, oldArray.length);
         oldArray = newArray;
       }
       
