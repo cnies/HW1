@@ -1,5 +1,3 @@
-package practice.HW1;
-
 /**
 @version 1.0
 @author Christopher Nies

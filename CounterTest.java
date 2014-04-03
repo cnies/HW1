@@ -1,5 +1,3 @@
-package practice.HW1;
-
 /*
 NAME: Christopher Nies
 ID: A11393577

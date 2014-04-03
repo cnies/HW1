@@ -1,4 +1,3 @@
-package practice.HW1;
 import java.util.Scanner;
 import java.io.File;
 
