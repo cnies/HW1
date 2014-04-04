@@ -1,5 +1,5 @@
 /*
-NAME: Christopher Nies
+Name: Christopher Nies
 ID: A11393577
 LOGIN: cs12sfl
 */
@@ -9,6 +9,7 @@ public class CounterTest extends TestCase {
 
 	private Counter counter, counter2;
 
+	@Override
 	/* this sets up the test fixture. JUnit invokes this method before
  	   every testXXX method */
 	protected void setUp() throws Exception {

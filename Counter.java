@@ -3,6 +3,7 @@
 @author Christopher Nies
 */
 public class Counter {
+
 	private int count = 0;
 	private int step = 1;
 	/**

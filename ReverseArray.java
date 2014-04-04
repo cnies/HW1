@@ -21,6 +21,7 @@ public class ReverseArray
       newArray[i] = sc.nextLine();
       i++;
     } 
+    sc.close();
       return newArray;
   }
   
@@ -45,5 +46,6 @@ public class ReverseArray
       if (stringArray[i]!=null)
         System.out.println(stringArray[i]);
     }
+    sc.close();
   }
 }
